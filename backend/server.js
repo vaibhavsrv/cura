@@ -21,4 +21,8 @@ app.listen(PORT,() => console.log("Server is running on PORT ${PORT}"))
 
 PORT = 5000
 JWT_SECRET = cura_super_secret_key_change_this
-
+DB_USER=postgres
+DB_HOST=localhost
+DB_NAME=cura_db
+DB_PASSWORD=yourpassword
+DB_PORT=5432
